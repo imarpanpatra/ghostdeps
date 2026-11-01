@@ -1,0 +1,7 @@
+node_modules/
+SUBMISSION.md
+
+# These hold the raw package names. Registering one is the attack, so they stay
+# on the machine that made them. See "What this repo leaves out" in the README.
+data/runs.jsonl
+data/registry.json

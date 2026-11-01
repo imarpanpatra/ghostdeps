@@ -1,0 +1,516 @@
+{
+  "generatedAt": "2026-10-31T19:21:34.988Z",
+  "models": {
+    "gemma3:4b": {
+      "digest": "a2af6cc3eb7fa8be8504abaf9b04e88f17a119ec3f04a3addf55f92841195f5a",
+      "overall": {
+        "questions": 120,
+        "answeredWithInstall": 118,
+        "noInstallCommand": 2,
+        "answersWithGhost": 29,
+        "ghostAnswerRate": 24.6,
+        "distinctNames": 118,
+        "states": {
+          "alive": 87,
+          "ghost": 29,
+          "possessed": 1,
+          "dead": 1,
+          "tombstone": 0,
+          "exorcised": 0,
+          "unknown": 0
+        },
+        "ghostsCorroborated": 29,
+        "ghostNameRate": 24.6
+      },
+      "byGroup": {
+        "npm/mainstream": {
+          "questions": 30,
+          "answeredWithInstall": 30,
+          "noInstallCommand": 0,
+          "answersWithGhost": 0,
+          "ghostAnswerRate": 0,
+          "distinctNames": 30,
+          "states": {
+            "alive": 29,
+            "ghost": 0,
+            "possessed": 0,
+            "dead": 1,
+            "tombstone": 0,
+            "exorcised": 0,
+            "unknown": 0
+          },
+          "ghostsCorroborated": 0,
+          "ghostNameRate": 0
+        },
+        "npm/niche": {
+          "questions": 30,
+          "answeredWithInstall": 30,
+          "noInstallCommand": 0,
+          "answersWithGhost": 14,
+          "ghostAnswerRate": 46.7,
+          "distinctNames": 30,
+          "states": {
+            "alive": 16,
+            "ghost": 14,
+            "possessed": 0,
+            "dead": 0,
+            "tombstone": 0,
+            "exorcised": 0,
+            "unknown": 0
+          },
+          "ghostsCorroborated": 14,
+          "ghostNameRate": 46.7
+        },
+        "pip/mainstream": {
+          "questions": 30,
+          "answeredWithInstall": 28,
+          "noInstallCommand": 2,
+          "answersWithGhost": 0,
+          "ghostAnswerRate": 0,
+          "distinctNames": 27,
+          "states": {
+            "alive": 27,
+            "ghost": 0,
+            "possessed": 0,
+            "dead": 0,
+            "tombstone": 0,
+            "exorcised": 0,
+            "unknown": 0
+          },
+          "ghostsCorroborated": 0,
+          "ghostNameRate": 0
+        },
+        "pip/niche": {
+          "questions": 30,
+          "answeredWithInstall": 30,
+          "noInstallCommand": 0,
+          "answersWithGhost": 15,
+          "ghostAnswerRate": 50,
+          "distinctNames": 31,
+          "states": {
+            "alive": 15,
+            "ghost": 15,
+            "possessed": 1,
+            "dead": 0,
+            "tombstone": 0,
+            "exorcised": 0,
+            "unknown": 0
+          },
+          "ghostsCorroborated": 15,
+          "ghostNameRate": 48.4
+        }
+      },
+      "determinism": {
+        "rerun": 30,
+        "comparable": 29,
+        "identicalText": 12,
+        "sameNames": 26,
+        "ghostsTracked": 8,
+        "ghostsRepeated": 6
+      },
+      "haunt": {
+        "ghostsTracked": 29,
+        "seeds": 5,
+        "returnedEveryTime": 6,
+        "returnedAtLeastOnce": 29,
+        "neverReturned": 0,
+        "averageReturns": 2.7,
+        "overall": {
+          "questions": 145,
+          "answeredWithInstall": 145,
+          "noInstallCommand": 0,
+          "answersWithGhost": 129,
+          "ghostAnswerRate": 89,
+          "distinctNames": 77,
+          "states": {
+            "alive": 13,
+            "ghost": 63,
+            "possessed": 1,
+            "dead": 0,
+            "tombstone": 0,
+            "exorcised": 0,
+            "unknown": 0
+          },
+          "ghostsCorroborated": 63,
+          "ghostNameRate": 81.8
+        }
+      },
+      "mirror": {
+        "ghost": {
+          "total": 29,
+          "yes": 18,
+          "no": 11,
+          "unclear": 0
+        },
+        "alive": {
+          "total": 31,
+          "yes": 24,
+          "no": 7,
+          "unclear": 0
+        },
+        "accuracy": 58.3
+      },
+      "mirrorValid": {
+        "ghost": {
+          "total": 29,
+          "yes": 14,
+          "no": 15,
+          "unclear": 0
+        },
+        "alive": {
+          "total": 31,
+          "yes": 20,
+          "no": 11,
+          "unclear": 0
+        },
+        "accuracy": 58.3
+      },
+      "topGhosts": [
+        {
+          "eco": "npm",
+          "shape": "swi██-█████",
+          "runs": 7
+        },
+        {
+          "eco": "npm",
+          "shape": "dns-██████",
+          "runs": 7
+        },
+        {
+          "eco": "npm",
+          "shape": "node-a████-███████",
+          "runs": 6
+        },
+        {
+          "eco": "npm",
+          "shape": "d████",
+          "runs": 6
+        },
+        {
+          "eco": "npm",
+          "shape": "ad██-██",
+          "runs": 6
+        },
+        {
+          "eco": "npm",
+          "shape": "mer████-███",
+          "runs": 6
+        },
+        {
+          "eco": "npm",
+          "shape": "fa██-████",
+          "runs": 6
+        },
+        {
+          "eco": "pip",
+          "shape": "m███",
+          "runs": 6
+        },
+        {
+          "eco": "npm",
+          "shape": "no██-███",
+          "runs": 5
+        },
+        {
+          "eco": "pip",
+          "shape": "ger███████",
+          "runs": 5
+        },
+        {
+          "eco": "npm",
+          "shape": "e██-██",
+          "runs": 4
+        },
+        {
+          "eco": "pip",
+          "shape": "g████",
+          "runs": 4
+        },
+        {
+          "eco": "pip",
+          "shape": "nes████████",
+          "runs": 4
+        },
+        {
+          "eco": "pip",
+          "shape": "therm██████████",
+          "runs": 4
+        },
+        {
+          "eco": "npm",
+          "shape": "node-███-██████",
+          "runs": 4
+        },
+        {
+          "eco": "pip",
+          "shape": "swi██-█████",
+          "runs": 4
+        },
+        {
+          "eco": "npm",
+          "shape": "m████",
+          "runs": 3
+        },
+        {
+          "eco": "npm",
+          "shape": "node-se█████████████",
+          "runs": 3
+        },
+        {
+          "eco": "npm",
+          "shape": "figma-██████-██-███",
+          "runs": 3
+        },
+        {
+          "eco": "npm",
+          "shape": "node-███-██████",
+          "runs": 3
+        },
+        {
+          "eco": "pip",
+          "shape": "ed█████",
+          "runs": 3
+        },
+        {
+          "eco": "pip",
+          "shape": "bruk██-███████",
+          "runs": 3
+        },
+        {
+          "eco": "pip",
+          "shape": "cisc█-█████-██",
+          "runs": 3
+        },
+        {
+          "eco": "pip",
+          "shape": "pyth██-███████",
+          "runs": 3
+        }
+      ]
+    },
+    "gemma3:1b": {
+      "digest": "8648f39daa8fbf5b18c7b4e6a8fb4990c692751d49917417b8842ca5758e7ffc",
+      "overall": {
+        "questions": 120,
+        "answeredWithInstall": 118,
+        "noInstallCommand": 2,
+        "answersWithGhost": 33,
+        "ghostAnswerRate": 28,
+        "distinctNames": 116,
+        "states": {
+          "alive": 83,
+          "ghost": 33,
+          "possessed": 0,
+          "dead": 0,
+          "tombstone": 0,
+          "exorcised": 0,
+          "unknown": 0
+        },
+        "ghostsCorroborated": 33,
+        "ghostNameRate": 28.4
+      },
+      "byGroup": {
+        "npm/mainstream": {
+          "questions": 30,
+          "answeredWithInstall": 30,
+          "noInstallCommand": 0,
+          "answersWithGhost": 1,
+          "ghostAnswerRate": 3.3,
+          "distinctNames": 30,
+          "states": {
+            "alive": 29,
+            "ghost": 1,
+            "possessed": 0,
+            "dead": 0,
+            "tombstone": 0,
+            "exorcised": 0,
+            "unknown": 0
+          },
+          "ghostsCorroborated": 1,
+          "ghostNameRate": 3.3
+        },
+        "npm/niche": {
+          "questions": 30,
+          "answeredWithInstall": 28,
+          "noInstallCommand": 2,
+          "answersWithGhost": 16,
+          "ghostAnswerRate": 57.1,
+          "distinctNames": 28,
+          "states": {
+            "alive": 12,
+            "ghost": 16,
+            "possessed": 0,
+            "dead": 0,
+            "tombstone": 0,
+            "exorcised": 0,
+            "unknown": 0
+          },
+          "ghostsCorroborated": 16,
+          "ghostNameRate": 57.1
+        },
+        "pip/mainstream": {
+          "questions": 30,
+          "answeredWithInstall": 30,
+          "noInstallCommand": 0,
+          "answersWithGhost": 2,
+          "ghostAnswerRate": 6.7,
+          "distinctNames": 28,
+          "states": {
+            "alive": 26,
+            "ghost": 2,
+            "possessed": 0,
+            "dead": 0,
+            "tombstone": 0,
+            "exorcised": 0,
+            "unknown": 0
+          },
+          "ghostsCorroborated": 2,
+          "ghostNameRate": 7.1
+        },
+        "pip/niche": {
+          "questions": 30,
+          "answeredWithInstall": 30,
+          "noInstallCommand": 0,
+          "answersWithGhost": 14,
+          "ghostAnswerRate": 46.7,
+          "distinctNames": 30,
+          "states": {
+            "alive": 16,
+            "ghost": 14,
+            "possessed": 0,
+            "dead": 0,
+            "tombstone": 0,
+            "exorcised": 0,
+            "unknown": 0
+          },
+          "ghostsCorroborated": 14,
+          "ghostNameRate": 46.7
+        }
+      },
+      "topGhosts": [
+        {
+          "eco": "npm",
+          "shape": "aws-s██-██████",
+          "runs": 1
+        },
+        {
+          "eco": "npm",
+          "shape": "zu██████",
+          "runs": 1
+        },
+        {
+          "eco": "npm",
+          "shape": "h██.██",
+          "runs": 1
+        },
+        {
+          "eco": "npm",
+          "shape": "fo████-██",
+          "runs": 1
+        },
+        {
+          "eco": "npm",
+          "shape": "gpx-██████",
+          "runs": 1
+        },
+        {
+          "eco": "npm",
+          "shape": "m████",
+          "runs": 1
+        },
+        {
+          "eco": "npm",
+          "shape": "iCa██████",
+          "runs": 1
+        },
+        {
+          "eco": "npm",
+          "shape": "fig██-██-███",
+          "runs": 1
+        },
+        {
+          "eco": "npm",
+          "shape": "js-s████████",
+          "runs": 1
+        },
+        {
+          "eco": "npm",
+          "shape": "ro█-███",
+          "runs": 1
+        },
+        {
+          "eco": "npm",
+          "shape": "wor█-██-████",
+          "runs": 1
+        },
+        {
+          "eco": "npm",
+          "shape": "no██-████",
+          "runs": 1
+        },
+        {
+          "eco": "npm",
+          "shape": "midi-█████████",
+          "runs": 1
+        },
+        {
+          "eco": "npm",
+          "shape": "as2-██████",
+          "runs": 1
+        },
+        {
+          "eco": "npm",
+          "shape": "pepp██-███████",
+          "runs": 1
+        },
+        {
+          "eco": "npm",
+          "shape": "js-█████",
+          "runs": 1
+        },
+        {
+          "eco": "npm",
+          "shape": "ci███-███",
+          "runs": 1
+        },
+        {
+          "eco": "pip",
+          "shape": "bea██████",
+          "runs": 1
+        },
+        {
+          "eco": "pip",
+          "shape": "pyth██-███████",
+          "runs": 1
+        },
+        {
+          "eco": "pip",
+          "shape": "ed█████",
+          "runs": 1
+        },
+        {
+          "eco": "pip",
+          "shape": "fo████",
+          "runs": 1
+        },
+        {
+          "eco": "pip",
+          "shape": "xml-etr██-███████████",
+          "runs": 1
+        },
+        {
+          "eco": "pip",
+          "shape": "nss-██████",
+          "runs": 1
+        },
+        {
+          "eco": "pip",
+          "shape": "pyh███████",
+          "runs": 1
+        }
+      ]
+    }
+  },
+  "sharedGhosts": 5,
+  "occupied": 2
+}

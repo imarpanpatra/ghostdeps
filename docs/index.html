@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ghostdeps</title>
+<meta name="description" content="A census of the packages that only exist inside an open-weight model.">
+<style>
+  :root { --ink:#16181a; --panel:#202427; --line:#343a3e; --paper:#f2f2eb; --muted:#a7ada8; --ochre:#f5b726; --stone:#2b3134; }
+  * { box-sizing: border-box; }
+  html { background: var(--ink); }
+  body { margin: 0; color: var(--paper); background: var(--ink); font: 17px/1.6 Inter, system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 860px; margin: 0 auto; padding: 56px 16px 72px; }
+  header .kicker { color: var(--muted); font-size: 14px; letter-spacing: .08em; text-transform: uppercase; margin: 0; }
+  h1 { font: 700 clamp(40px, 9vw, 72px)/1.05 Georgia, "Times New Roman", serif; margin: 8px 0 28px; }
+  .hero { font: 700 clamp(56px, 14vw, 112px)/1 Georgia, "Times New Roman", serif; color: var(--ochre); margin: 0; }
+  .lede { font-size: 20px; max-width: 34em; margin: 12px 0 0; }
+  section { margin-top: 56px; }
+  h2 { font: 700 26px/1.25 Georgia, "Times New Roman", serif; margin: 0 0 8px; }
+  section > p { color: var(--muted); margin: 0 0 20px; max-width: 40em; }
+  .bars { display: grid; gap: 10px; }
+  .bar-row { display: grid; grid-template-columns: 190px 1fr 58px 76px; gap: 12px; align-items: center; }
+  .bar-label { font-size: 15px; }
+  .bar-track { height: 16px; background: var(--panel); border-radius: 4px; overflow: hidden; }
+  .bar-fill { display: block; height: 100%; background: var(--ochre); border-radius: 0 4px 4px 0; }
+  .bar-value { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+  .bar-count { text-align: right; color: var(--muted); font-size: 14px; font-variant-numeric: tabular-nums; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+  .cards article { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 18px 20px; }
+  .cards h3 { font-size: 15px; margin: 0; color: var(--muted); font-weight: 600; }
+  .cards .figure { font: 700 40px/1.1 Georgia, "Times New Roman", serif; margin: 10px 0; color: var(--paper); }
+  .cards article p:last-child { margin: 0; font-size: 15px; }
+  .stones { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; }
+  .stone { background: var(--stone); border-radius: 80px 80px 6px 6px; padding: 30px 12px 14px; text-align: center; display: grid; gap: 6px; }
+  .stone .rip { font: italic 14px Georgia, "Times New Roman", serif; color: var(--muted); }
+  .stone code { font: 600 14px ui-monospace, Consolas, monospace; overflow-wrap: anywhere; }
+  .stone .eco { font-size: 12px; color: var(--muted); }
+  dl { display: grid; grid-template-columns: 120px 1fr; gap: 6px 14px; margin: 0; }
+  dt { font-weight: 600; }
+  dd { margin: 0; color: var(--muted); }
+  footer { margin-top: 56px; color: var(--muted); font-size: 14px; }
+  a { color: var(--ochre); }
+  @media (max-width: 620px) {
+    .bar-row { grid-template-columns: 1fr 58px; }
+    .bar-track { grid-column: 1 / -1; grid-row: 2; }
+    .bar-count { display: none; }
+    dl { grid-template-columns: 1fr; }
+    dd { margin-bottom: 8px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="kicker">A census of the open-weight dead</p>
+    <h1>ghostdeps</h1>
+    <p class="hero">24.6%</p>
+    <p class="lede">of the packages gemma3:4b told me to install do not exist: 29 of 118 distinct names, across 120 ordinary developer questions.</p>
+  </header>
+  <section>
+    <h2>The less common the task, the less real the answer</h2>
+    <p>Share of distinct packages with no record on the registry or in deps.dev.</p>
+    <div class="bars"><div class="bar-row" title="0 of 30 distinct names">
+      <span class="bar-label">npm, everyday tasks</span>
+      <span class="bar-track"><span class="bar-fill" style="width:0.5%"></span></span>
+      <span class="bar-value">0%</span>
+      <span class="bar-count">0 of 30</span>
+    </div><div class="bar-row" title="14 of 30 distinct names">
+      <span class="bar-label">npm, niche tasks</span>
+      <span class="bar-track"><span class="bar-fill" style="width:46.7%"></span></span>
+      <span class="bar-value">46.7%</span>
+      <span class="bar-count">14 of 30</span>
+    </div><div class="bar-row" title="0 of 27 distinct names">
+      <span class="bar-label">PyPI, everyday tasks</span>
+      <span class="bar-track"><span class="bar-fill" style="width:0.5%"></span></span>
+      <span class="bar-value">0%</span>
+      <span class="bar-count">0 of 27</span>
+    </div><div class="bar-row" title="15 of 31 distinct names">
+      <span class="bar-label">PyPI, niche tasks</span>
+      <span class="bar-track"><span class="bar-fill" style="width:48.4%"></span></span>
+      <span class="bar-value">48.4%</span>
+      <span class="bar-count">15 of 31</span>
+    </div></div>
+  </section>
+  <section class="cards"><article>
+    <h3>They come back</h3><p class="figure">29 of 29</p><p>ghosts returned when the question was asked 5 more times with new seeds, 2.7 times each on average. 6 returned every time. 129 of those 145 answers held a ghost, this one or another.</p></article><article>
+    <h3>They can't tell they're dead</h3><p class="figure">35 of 60</p><p>right when the model was asked if its own niche answers were real, 29 ghosts and 31 real packages. One wording called 18 ghosts real, another 14.</p></article><article>
+    <h3>The name outlasts the sentence</h3><p class="figure">26 of 29</p><p>repeat runs named the same package, though only 12 of 30 repeated the answer word for word. Of the ghosts in that set, 6 of 8 came back.</p></article><article>
+    <h3>Two models, one ghost</h3><p class="figure">5</p><p>names were invented by both gemma3:4b and gemma3:1b, separately, from the same questions.</p></article><article>
+    <h3>Something moved in</h3><p class="figure">2</p><p>names the model gave are held by packages under a year old with almost no use. That means a name is occupied. It does not mean anyone did anything wrong.</p></article></section>
+  <section>
+    <h2>The graveyard</h2>
+    <p>The most persistent ghosts. Names are masked because registering one is the attack: a developer who
+    trusts the model installs whatever now lives at that name.</p>
+    <div class="stones"><div class="stone" title="Seen in 7 answers">
+    <span class="rip">never was</span>
+    <code>swi██-█████</code>
+    <span class="eco">npm, seen 7x</span>
+  </div><div class="stone" title="Seen in 7 answers">
+    <span class="rip">never was</span>
+    <code>dns-██████</code>
+    <span class="eco">npm, seen 7x</span>
+  </div><div class="stone" title="Seen in 6 answers">
+    <span class="rip">never was</span>
+    <code>node-a████-███████</code>
+    <span class="eco">npm, seen 6x</span>
+  </div><div class="stone" title="Seen in 6 answers">
+    <span class="rip">never was</span>
+    <code>d████</code>
+    <span class="eco">npm, seen 6x</span>
+  </div><div class="stone" title="Seen in 6 answers">
+    <span class="rip">never was</span>
+    <code>ad██-██</code>
+    <span class="eco">npm, seen 6x</span>
+  </div><div class="stone" title="Seen in 6 answers">
+    <span class="rip">never was</span>
+    <code>mer████-███</code>
+    <span class="eco">npm, seen 6x</span>
+  </div><div class="stone" title="Seen in 6 answers">
+    <span class="rip">never was</span>
+    <code>fa██-████</code>
+    <span class="eco">npm, seen 6x</span>
+  </div><div class="stone" title="Seen in 6 answers">
+    <span class="rip">never was</span>
+    <code>m███</code>
+    <span class="eco">PyPI, seen 6x</span>
+  </div><div class="stone" title="Seen in 5 answers">
+    <span class="rip">never was</span>
+    <code>no██-███</code>
+    <span class="eco">npm, seen 5x</span>
+  </div><div class="stone" title="Seen in 5 answers">
+    <span class="rip">never was</span>
+    <code>ger███████</code>
+    <span class="eco">PyPI, seen 5x</span>
+  </div><div class="stone" title="Seen in 4 answers">
+    <span class="rip">never was</span>
+    <code>e██-██</code>
+    <span class="eco">npm, seen 4x</span>
+  </div><div class="stone" title="Seen in 4 answers">
+    <span class="rip">never was</span>
+    <code>g████</code>
+    <span class="eco">PyPI, seen 4x</span>
+  </div><div class="stone" title="Seen in 4 answers">
+    <span class="rip">never was</span>
+    <code>nes████████</code>
+    <span class="eco">PyPI, seen 4x</span>
+  </div><div class="stone" title="Seen in 4 answers">
+    <span class="rip">never was</span>
+    <code>therm██████████</code>
+    <span class="eco">PyPI, seen 4x</span>
+  </div><div class="stone" title="Seen in 4 answers">
+    <span class="rip">never was</span>
+    <code>node-███-██████</code>
+    <span class="eco">npm, seen 4x</span>
+  </div><div class="stone" title="Seen in 4 answers">
+    <span class="rip">never was</span>
+    <code>swi██-█████</code>
+    <span class="eco">PyPI, seen 4x</span>
+  </div><div class="stone" title="Seen in 3 answers">
+    <span class="rip">never was</span>
+    <code>m████</code>
+    <span class="eco">npm, seen 3x</span>
+  </div><div class="stone" title="Seen in 3 answers">
+    <span class="rip">never was</span>
+    <code>node-se█████████████</code>
+    <span class="eco">npm, seen 3x</span>
+  </div><div class="stone" title="Seen in 3 answers">
+    <span class="rip">never was</span>
+    <code>figma-██████-██-███</code>
+    <span class="eco">npm, seen 3x</span>
+  </div><div class="stone" title="Seen in 3 answers">
+    <span class="rip">never was</span>
+    <code>node-███-██████</code>
+    <span class="eco">npm, seen 3x</span>
+  </div><div class="stone" title="Seen in 3 answers">
+    <span class="rip">never was</span>
+    <code>ed█████</code>
+    <span class="eco">PyPI, seen 3x</span>
+  </div><div class="stone" title="Seen in 3 answers">
+    <span class="rip">never was</span>
+    <code>bruk██-███████</code>
+    <span class="eco">PyPI, seen 3x</span>
+  </div><div class="stone" title="Seen in 3 answers">
+    <span class="rip">never was</span>
+    <code>cisc█-█████-██</code>
+    <span class="eco">PyPI, seen 3x</span>
+  </div><div class="stone" title="Seen in 3 answers">
+    <span class="rip">never was</span>
+    <code>pyth██-███████</code>
+    <span class="eco">PyPI, seen 3x</span>
+  </div></div>
+  </section>
+  <section>
+    <h2>How to read this</h2>
+    <p>Every name came out of an install command in the model's own answer. The registries decided what was real.</p>
+    <dl>
+      <dt>Model</dt><dd>gemma3:4b, digest <code>a2af6cc3eb7f</code>, running locally through Ollama.</dd>
+      <dt>Ghost</dt><dd>The registry has no such name and deps.dev has no memory of it (29 of 29 confirmed by both). A deletion neither source recorded would look the same, so this means "no trace found", not "proven never to exist".</dd>
+      <dt>Unanswered</dt><dd>2 of 120 questions produced no install command and add no names.</dd>
+      <dt>Sample</dt><dd>120 hand-written tasks, half everyday and half niche. This describes one model on one list, not every model.</dd>
+      <dt>Taken</dt><dd>2026-10-31.</dd>
+    </dl>
+  </section>
+  <footer>Built for the Hacktoberfest Open-Source AI Challenge, Week 4: Ghost in the Machine.</footer>
+</main>
+</body>
+</html>

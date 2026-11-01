@@ -1,0 +1,661 @@
+{
+  "takenAt": "2026-10-31T19:21:34.988Z",
+  "hashes": {
+    "6c21ea94420b41bad00567d43f5bee7363a43cd9800e19c91961e2f34ca5d5af": {
+      "eco": "npm",
+      "runs": 4,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "1409e007439c757bcca9f0bd0d62fcfa6819a17c48f151d53a5e24ebed6833a7": {
+      "eco": "npm",
+      "runs": 2,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "eb99fb7a3be795b8847f418b0887d3bf4851408a34b808c978a87fe70aac1bad": {
+      "eco": "npm",
+      "runs": 4,
+      "models": [
+        "gemma3:4b",
+        "gemma3:1b"
+      ]
+    },
+    "ef42bb17ba3c00ef005b24520282314b99a8188a2b997c871fd81cc4096e13d2": {
+      "eco": "npm",
+      "runs": 3,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "6d8c5be41a5c297f19b6ced7a88f05a786785519c403487a5913f01fe4534bd0": {
+      "eco": "npm",
+      "runs": 3,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "af4e8cfc74b3498e4f83ba43dfdd47960fc465f5f85f72b9c382f46d62b0aed3": {
+      "eco": "npm",
+      "runs": 6,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "ae26f8009d622db30fcadefab3de5ae44234fb2a240d6dd8a882ecb47e6e7653": {
+      "eco": "npm",
+      "runs": 7,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "7b9efdab9b2b0bf6d52c78924f0a33aea6c3cf46cab1decd37e070518a3e4f96": {
+      "eco": "npm",
+      "runs": 6,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "5abe7a5e41fe01f4c3d0940b73e56192f811ce294d0351c33d7b6c13a5976f0b": {
+      "eco": "npm",
+      "runs": 6,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "56a8e26ff2c8da2bf893b89d3debb0b320ddfc353f08f6f5cba3f0e2b61fa8de": {
+      "eco": "npm",
+      "runs": 6,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "49a1bba9d9d37a6c1cc9bbbd2269dbf37a83cf71a9eaddb28bbfcca8b29e96d8": {
+      "eco": "npm",
+      "runs": 5,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "7e07bccba9b133bee89b034e439fa9489e1d14be09ff2ccdae0565a7f403e9d8": {
+      "eco": "npm",
+      "runs": 6,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "03229b08109b6a8323f6b02da0cc1a3513df96bca3b8caed823297dab3c1cb89": {
+      "eco": "npm",
+      "runs": 7,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "f570afa1ca4244830fbdc3f0b5031ffde8388446cf65e15ea1456ad542807600": {
+      "eco": "npm",
+      "runs": 3,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "a788abd37be42ebddae42743a05adb21a3f26e0b3a18007358dea083acfc021e": {
+      "eco": "pip",
+      "runs": 4,
+      "models": [
+        "gemma3:4b",
+        "gemma3:1b"
+      ]
+    },
+    "1ae8a84291924b3c29ac027d3f23b4eea1c494e6c4b47ce1734e3c9d5d4ba915": {
+      "eco": "pip",
+      "runs": 4,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "111eea3216238279368cad5a7e7b03205f834d768eaf14d67db87eec416db226": {
+      "eco": "pip",
+      "runs": 2,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "3596d6986e6299cea1761b9470208535b9905cf696b939e89de73a47317be631": {
+      "eco": "pip",
+      "runs": 2,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "b355108095394acc3414c90276d034f89f76f4caf3fa0b502c2e9dc9eb565ec4": {
+      "eco": "pip",
+      "runs": 2,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "01b5220bf77afdae57082bde5160a42cf6b8a9c128ecff051055815d51403adb": {
+      "eco": "pip",
+      "runs": 4,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "3e1acaef30bd62b29a040af9d5777402aafa9596a846de781f7706e59038964a": {
+      "eco": "pip",
+      "runs": 3,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "47380e115bb1f0bd4e113452b9891eb2f22dfa8665e7753ec68d0927df051a27": {
+      "eco": "pip",
+      "runs": 5,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "51cd54cb5ed0cc13c44605637cb4fc9f2fbced9dbeb7a55d53d18a1bdc7bf3e7": {
+      "eco": "pip",
+      "runs": 3,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "6911dac1234318dd643fadecd18116f2893a8e49ceee3d98f3e43278bb88d82b": {
+      "eco": "pip",
+      "runs": 2,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "75ad31978895db4a88c89f191a6c018c43ac47143433efc4006921dba100df49": {
+      "eco": "pip",
+      "runs": 4,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "2051cca665bedf5aae36dc942d7eae12f875c627b9b14b14ec5e75ada2119b49": {
+      "eco": "pip",
+      "runs": 2,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "397b9025b8019ed536ecb52fc07fd232dc5141f6dac98d10b177ae56bb4f8a5e": {
+      "eco": "pip",
+      "runs": 7,
+      "models": [
+        "gemma3:4b",
+        "gemma3:1b"
+      ]
+    },
+    "5fe85e487a2be1c5ac134f9e76de88e8164440d624d3daac6ac80a65148ff4de": {
+      "eco": "pip",
+      "runs": 2,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "3ab49561ad9b0381f0a83fcca4d86d5f73051d45bdc3a920e61b24d56e28e15c": {
+      "eco": "pip",
+      "runs": 3,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "aa9c2906a73ba0aff124590a89aeaf6ca98b1966bfd0f55d55d670dca6789a70": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "2e498ced8502a6c552a68de7fb939d75a34e6b09fb9e4271f141d3d2678fd6aa": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "bcf0601403b767ca841d8723fa80f8c8d5bc2485c73839adf1471090d7679c62": {
+      "eco": "npm",
+      "runs": 2,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "070479fc19868530ee24d4b1e0f23cf994f632f1997900a92c9f36d3676d01ab": {
+      "eco": "npm",
+      "runs": 1,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "5aa3580bd2e0d3c91d9168b65a36fcfa677cfe070473f24161e91d35f5c27e9b": {
+      "eco": "npm",
+      "runs": 4,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "972a8abc1529678c12877bceafddc9b476e89a84986acc80dfb496e119c5ec0b": {
+      "eco": "npm",
+      "runs": 3,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "7e1319b5ed526f6f39cee605693d0a6474fd8368a307298a9e19268b3196077b": {
+      "eco": "npm",
+      "runs": 1,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "a8b4db640d88a3d6da6820b9d9d35243bffafbeae10985e5ef891d490d0eafbe": {
+      "eco": "npm",
+      "runs": 1,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "d4860fc2f3c25ca330a97d2e1d73d29d33f9b9d84b5c293e9a6f25db194544d7": {
+      "eco": "npm",
+      "runs": 2,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "d6f1f75fad8c5f01e05dc66c2acf4ae7d4b7e6cd64293729f1e462bd0a80c087": {
+      "eco": "npm",
+      "runs": 1,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "5065102c025225947316c3b868e513cb20df2ea0a3d69dfd1b45e75c48b7f0f0": {
+      "eco": "npm",
+      "runs": 2,
+      "models": [
+        "gemma3:4b",
+        "gemma3:1b"
+      ]
+    },
+    "98048b36c6384a11204f272a0b6989f7f7f5e788ade00edd999d41bb21e23e1f": {
+      "eco": "npm",
+      "runs": 1,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "1ae6a1c9ad03f9f4ff81a16d2bd34f1db7686dff9e625c2653a6a2f3489b0ed2": {
+      "eco": "npm",
+      "runs": 1,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "dfbf26b473899987f35342e1a2846ee67f8e0e406b66034144125a6cbaba9fd1": {
+      "eco": "pip",
+      "runs": 2,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "0418e209ac2120817bb69d67e538ed9c96cc6bad3059da9a5cb44c9656a69336": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "0ea01d252b00ec7a1b6dc48e8f43b30f8a476561635f9a7c170c34984482fd29": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "887835b4bf9656acdc2bf5bd7952498b64f14ff8238561250ce756172059d8de": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "0b4156d7df2cdb1b7bc521a9dcf0f34bca5c5cd2f577ee25923fc15b969566d5": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "af7ad8cf9e3042df2254c42acc430dfbabe89e663d358d90c14a5bc040a5e9bb": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "6f7bd5ec74c39eb47c2d72dcf2fdcad4f506b312a511f12551759ae2f82507bb": {
+      "eco": "pip",
+      "runs": 2,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "91c622dd25436b8fd24aaf64a38e15d46e16dd26a2c34c4ac88b6376f53f2d03": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "a097063ede777b8274317352f34047d5ef64402e09fdeec42dbbe9f9bd7ca98e": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "956c3b5e45449245fc1fc151b412228445d089900774d36a383edcdfcc98b658": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "da198c38d9801abb7ea85905e390bfeae99d34a486498bf114e3d904b1975bb4": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "18cf5d9b3430ce40f904ebc6f7b4103c769bb4d3b4ca373b7b3c3b2d3324091f": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "495ba3c65ae71a3982ec5066402e497843f2572c2e10be510cf4be5412462939": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "18cf98ba7d014d0a4bb335e154ad12c2eabd652871a88385ddd22a16563a3474": {
+      "eco": "pip",
+      "runs": 2,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "1d7a63352b1c72347255a745c1c73e809879dd351501e561c6254e2b9fda4a6c": {
+      "eco": "pip",
+      "runs": 2,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "0535acba1104665adfe051cdb848c3da38fb83c8026ced68b7cd59410f28cf6d": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "51eb50acedfab4fea08eff47c1559beddd5198eb64f673017b1a94281f68c7a0": {
+      "eco": "pip",
+      "runs": 4,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "26dfe8e77346a309689ed674cce1bdfdaaf23b2923575a4c961a8cc0e3f7ef56": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "ef30eb410e2e4475e905313e0e7d9475858774203988ff14c84ede553ba433ae": {
+      "eco": "pip",
+      "runs": 4,
+      "models": [
+        "gemma3:4b",
+        "gemma3:1b"
+      ]
+    },
+    "36d3bdc43f54f5060791e07b7d1be724ab2f4fe12436c01de2864a2b9eb65226": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "d0a5b99a8a4231cc986372df57e460fbdf871a8dcbb992a227df86edfc1df450": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "01d2a3981c31c1367158dd837321a3e4b6b96fb24cb16aeae8b76aefd21441da": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "991883a8422b658ef1b1e6ee709b682a2f3a09481c999f009e864fd24834e4de": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:4b"
+      ]
+    },
+    "152ee29b4c74f5238c449fb5f60a91f9f977531c2eb7d75fd356a9a90341bf90": {
+      "eco": "npm",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    },
+    "0cfa3aa4f9eeb48d3507887da89ca583658dd0808b9b506b82b1427423f832c3": {
+      "eco": "npm",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    },
+    "47a04a8c839eddaf0590f07d6ae60882590c2fb4abdf162ef44da63ddfe86ef1": {
+      "eco": "npm",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    },
+    "22a450e14b45200d5737a5f9d9782c4c2305a2e937c7532b92107a32f75922be": {
+      "eco": "npm",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    },
+    "d10eeecb66c8c67f45a277c3ceb5e605765a3703a42960d896ebf7401eb6d9b4": {
+      "eco": "npm",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    },
+    "37bec13fcbb173aa2bf78c9b5aa52ea56fa211d7723cfe307ff0a06e2eee21c2": {
+      "eco": "npm",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    },
+    "edca9ba34fb5e2150978d83117571bf7b50f903b3f629b0f3fcb6ff0f4517604": {
+      "eco": "npm",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    },
+    "f95e55aa54849e48d1bee1150b44f4bd15a0963c89f1d23981591ac418f5b8e6": {
+      "eco": "npm",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    },
+    "978f75dbf286db63a4eebc11fc7088fe33d5755277c6ef9d9e9cd026fa70e53b": {
+      "eco": "npm",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    },
+    "5f63c562815e90b40289707252bf75f5e3951d91c9d783e55d9a62f5ceee1107": {
+      "eco": "npm",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    },
+    "7e334696c617c497ffcb79e03fbb523f1048b3cc6385ddd84d5197c64958246c": {
+      "eco": "npm",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    },
+    "bd1903130aab86099f6537eaf09ea77108bda3ae486049eff2112f87de7f34b2": {
+      "eco": "npm",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    },
+    "ead083a5d253bf9743421bdd8118186e4fb35b6dbf9ae121266aa250f327d452": {
+      "eco": "npm",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    },
+    "fca043dffbcd7f52c5474c93f3a191a050b75c01aed3f5cb7e1fe30029f60e51": {
+      "eco": "npm",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    },
+    "0bdf03028b27c06338d4f2dfb57d6835d3068e2154e3f646f7da065e2023bba7": {
+      "eco": "npm",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    },
+    "34547bb77631333a76289b238fbf2f4b28f63e42df9c49ed12ea6b282d3a85e1": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    },
+    "03b154e92489662674230c7c27d1b1f93d00c4b0c8e8ac1df9d23c9b0f576ccf": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    },
+    "04dc71743072619188cbdf8353df4fca8de3bb74cca4f4de3378b065de37c05a": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    },
+    "44e23955fc839bff81fec594b629c9e74a46c075bee73b2ceb950845b438c5bb": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    },
+    "8b472ba89e0ab210ca3f1db95ccc9e7f8dc07aac43f44d33d120bd46822f17b1": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    },
+    "bb91f03fc8cab1dd3354c7b2b231882512d032c4166096abf3247ace35f4cc7f": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    },
+    "d474824590c5af32540349a7c0cbbfb89c5605c4dbc715b360a6a14127f11c31": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    },
+    "3c7b9938b598dbd23168b8441851f9ad45655383781e67d29053948f30caa923": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    },
+    "ee89cbe605f648f89c5286c7987cc7af483a020fc3756ab2d4359d48b1d7f1ae": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    },
+    "0b38542ddfb46d0ff65043ebd6c5948f989df0654bfe56bb21eefcc0118967c8": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    },
+    "f1f8dbf7a4669ce179ec894d6eaffcdc6889471daedd5bd36e9aa7dca24bb1fa": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    },
+    "48884234625bb4dead115dd1f9677611f3c6669692a0c90341f9b187e0bfaf00": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    },
+    "59c2d2721361200f01ea0ef77ae68f2cb7f2a4a9c6c64399a482b5608311a35a": {
+      "eco": "pip",
+      "runs": 1,
+      "models": [
+        "gemma3:1b"
+      ]
+    }
+  }
+}

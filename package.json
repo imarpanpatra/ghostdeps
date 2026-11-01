@@ -1,0 +1,15 @@
+{
+  "name": "ghostdeps",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A census of the packages that only exist inside an open-weight model.",
+  "license": "MIT",
+  "bin": { "ghostdeps": "src/cli.js" },
+  "scripts": {
+    "check": "node --test",
+    "mutants": "node scripts/mutants.js",
+    "census": "node src/cli.js census"
+  },
+  "engines": { "node": ">=20" }
+}
